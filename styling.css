@@ -39,9 +39,9 @@ body {
 }
 
 .profile_picture {
-    width: 50; /* Change this to your desired width */
-    height: 130px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image round */
+    width: 300px; /* Change this to your desired width */
+    height: auto; /* Maintain aspect ratio */
+   /* border-radius: 50%; /* Make the image round */
     /*border-radius: 20px 20px 30px 40px; /* top left, top right, bottom right, bottom left */
 }
 
