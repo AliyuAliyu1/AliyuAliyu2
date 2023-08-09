@@ -1,0 +1,52 @@
+/* Apply styling to the body, which covers the entire page */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.center-container {
+    text-align: center;
+    
+}
+/* styles.css */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.button-link:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('Lovely.jpg');
+    background-size: cover; /* Adjust the image size to cover the entire area */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    font-family: Arial, sans-serif; /* Set a default font family */
+}
+
+.profile_picture {
+    width: 50; /* Change this to your desired width */
+    height: 130px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    /*border-radius: 20px 20px 30px 40px; /* top left, top right, bottom right, bottom left */
+}
+
+/* Style the content wrapper */
+.content-wrapper {
+    /* background-color: rgba(255, 255, 255, 0.8); Add a semi-transparent background color to the content */
+    padding: 20px; /* Add padding to the content wrapper */
+}
